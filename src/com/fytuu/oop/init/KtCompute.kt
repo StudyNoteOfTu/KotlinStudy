@@ -1,4 +1,4 @@
-package com.fytuu.oop
+package com.fytuu.oop.init
 
 class KtCompute {
     //普通字段

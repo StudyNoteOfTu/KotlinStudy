@@ -1,4 +1,4 @@
-package com.fytuu.oop
+package com.fytuu.oop.init
 
 //生成 KtField 类
 class KtField {

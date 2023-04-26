@@ -1,4 +1,4 @@
-package com.fytuu.oop
+package com.fytuu.oop.init
 
 /**
  * 延时初始化 lateInit

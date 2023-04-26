@@ -1,4 +1,4 @@
-package com.fytuu.oop
+package com.fytuu.oop.init
 
 /**
  * 主构造函数 - 临时参数

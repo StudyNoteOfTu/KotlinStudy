@@ -1,4 +1,4 @@
-package com.fytuu.oop
+package com.fytuu.oop.init
 
 /**
  * 初始代码块
@@ -16,6 +16,9 @@ class KtInitBlock(_name: String, _age: Int) //主构造函数
     //
     //  在构造函数和 init 代码块中，可以使用临时参数， 且只能访问到主构造函数的传入参数
     init {
+
+//        info  = "abc"
+
         println("init block enter")
 
         //...
@@ -44,7 +47,7 @@ class KtInitBlock(_name: String, _age: Int) //主构造函数
     }
 
 
-    val info: String = "default info "
+    var info: String = "default info "
 
 }
 

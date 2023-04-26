@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5303fa41-1bdf-4707-a051-0278d322186a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/KtConstructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/KtInitBlock.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/KtLateInit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/构造初始化顺序.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/init/KtByLazy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/plus/KtAny.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/plus/KtObject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/plus/KtOpenAndTypeCast.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/META-INF/KotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/META-INF/KotlinStudy.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/functions/内置函数总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/functions/内置函数总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtFieldKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtFieldKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fytuu/functions/内置函数总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/functions/内置函数总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fytuu/oop/KtCompute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/oop/KtCompute.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtCompute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtComputeKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtConstructorKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtFieldKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtInitBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtInitBlockKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtLateInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtLateInitKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/KtStudentPro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/构造初始化顺序.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fytuu/oop/KtCompute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/oop/init/KtCompute.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fytuu/oop/KtConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/oop/init/KtConstructor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fytuu/oop/KtField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/oop/init/KtField.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fytuu/oop/KtInitBlock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/oop/init/KtInitBlock.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fytuu/oop/KtLateInit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/oop/init/KtLateInit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fytuu/oop/构造初始化顺序.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/oop/init/构造初始化顺序.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +51,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2OlchLLD7AhFtcB9KXCns9zPnHr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,10 +65,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\KotlinStudy\src\com\fytuu\oop\init" />
       <recent name="D:\JavaProjects\KotlinStudy\src\com\fytuu\basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KtLateInitKt">
+  <component name="RunManager" selected="Kotlin.KtOpenAndTypeCastKt">
+    <configuration name="KtByLazyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinStudy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.init.KtByLazyKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KtConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinStudy" />
       <option name="VM_PARAMETERS" />
@@ -61,20 +90,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.KtConstructorKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KtFieldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="KotlinStudy" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.KtFieldKt" />
+      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.init.KtConstructorKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,7 +103,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.KtInitBlockKt" />
+      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.init.KtInitBlockKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,20 +116,20 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.KtLateInitKt" />
+      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.init.KtLateInitKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KtMutableMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="KtOpenAndTypeCastKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinStudy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.fytuu.list.KtMutableMapKt" />
+      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.plus.KtOpenAndTypeCastKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.KtOpenAndTypeCastKt" />
+        <item itemvalue="Kotlin.KtByLazyKt" />
         <item itemvalue="Kotlin.KtLateInitKt" />
         <item itemvalue="Kotlin.KtInitBlockKt" />
         <item itemvalue="Kotlin.KtConstructorKt" />
-        <item itemvalue="Kotlin.KtFieldKt" />
-        <item itemvalue="Kotlin.KtMutableMapKt" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +190,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="320" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1682139038262" />
+    <state x="170" y="327" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1682520123510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="170" y="327" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1682520123510" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1682158599561">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -182,22 +202,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="172" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1682426002338" />
-    <state width="723" height="206" key="GridCell.Tab.0.bottom" timestamp="1682475978685">
+    <state width="723" height="206" key="GridCell.Tab.0.bottom" timestamp="1682521162643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1682475978685" />
-    <state width="723" height="206" key="GridCell.Tab.0.center" timestamp="1682475978685">
+    <state width="723" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1682521162643" />
+    <state width="723" height="206" key="GridCell.Tab.0.center" timestamp="1682521162643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1682475978685" />
-    <state width="723" height="206" key="GridCell.Tab.0.left" timestamp="1682475978685">
+    <state width="723" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1682521162643" />
+    <state width="723" height="206" key="GridCell.Tab.0.left" timestamp="1682521162643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1682475978685" />
-    <state width="723" height="206" key="GridCell.Tab.0.right" timestamp="1682475978685">
+    <state width="723" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1682521162643" />
+    <state width="723" height="206" key="GridCell.Tab.0.right" timestamp="1682521162643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1682475978685" />
+    <state width="723" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1682521162643" />
     <state width="724" height="258" key="GridCell.Tab.1.bottom" timestamp="1682389758397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -214,14 +234,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="724" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1682389758397" />
-    <state x="0" y="61" width="914" height="708" key="SettingsEditor" timestamp="1682474288596">
+    <state x="0" y="61" width="914" height="708" key="SettingsEditor" timestamp="1682505362028">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="61" width="914" height="708" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1682474288596" />
-    <state x="77" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1682474217730">
+    <state x="0" y="61" width="914" height="708" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1682505362028" />
+    <state x="77" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1682505364382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="77" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1682474217730" />
+    <state x="77" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1682505364382" />
     <state x="403" y="338" width="678" height="571" key="dock-window-1" timestamp="1682216488807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
