@@ -19,9 +19,15 @@ class KtCompute {
         get() = field+ (1..1000).shuffled().first()//从1.。1000取出随机值，返回给getNumber2()函数
 
     val info :String? = /*null*/ ""
-    //防范 
-    fun getShowInfo(){
 
+    //Kt约定规范：防范竞态条件： 当调用info成员时，该成员可能为null，也可能为空值 "",就必须采用防范竞态条件
+    fun getShowInfo() :String{
+        //通过空合并，将可空类型，转为不可空类型
+        return info?.let {
+            if (it.isBlank()){
+                "empty info"
+            }else it
+        }?:"null info"
     }
 }
 
