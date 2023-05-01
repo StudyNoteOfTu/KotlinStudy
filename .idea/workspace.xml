@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5303fa41-1bdf-4707-a051-0278d322186a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/clz/KtComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/clz/KtDataBean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/clz/KtEnum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/clz/KtOperator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/plus/JavaInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/plus/KtCompanion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/plus/KtInnerClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/plus/KtObjectExpress.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/plus/TwoFunInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/clz/KtAbstract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/enum/KtSealed.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/interfaces/KtInterface.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/interfaces/KtInterfaceDefault.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fytuu/oop/type/KtType.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/META-INF/KotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/META-INF/KotlinStudy.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/plus/KtOpenAndTypeCastKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/plus/KtOpenAndTypeCastKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/plus/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/plus/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fytuu/oop/plus/KtObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/oop/plus/KtObject.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/CardContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/KtDataBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/KtDataBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/KtDataBeanKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/KtDataBeanKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/KtEnumKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/KtMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/KtMenu0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/KtNormalBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/KtNormalBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinStudy/com/fytuu/oop/clz/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fytuu/oop/clz/KtDataBean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/oop/clz/KtDataBean.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fytuu/oop/clz/KtEnum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fytuu/oop/enum/KtEnum.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,71 +59,72 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\KotlinStudy\src\com\fytuu\oop\enum" />
       <recent name="D:\JavaProjects\KotlinStudy\src\com\fytuu\oop\init" />
       <recent name="D:\JavaProjects\KotlinStudy\src\com\fytuu\basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KtEnumKt">
-    <configuration name="KtComponentKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.KtTypeKt">
+    <configuration name="KtAbstractKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinStudy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.clz.KtComponentKt" />
+      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.clz.KtAbstractKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KtDataBeanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="KtInterfaceDefaultKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinStudy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.clz.KtDataBeanKt" />
+      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.interfaces.KtInterfaceDefaultKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KtEnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="KtInterfaceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinStudy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.clz.KtEnumKt" />
+      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.interfaces.KtInterfaceKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KtObjectExpressKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="KtSealedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinStudy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.plus.KtObjectExpressKt" />
+      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.enum.KtSealedKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KtOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="KtTypeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinStudy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.clz.KtOperatorKt" />
+      <option name="MAIN_CLASS_NAME" value="com.fytuu.oop.type.KtTypeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.KtEnumKt" />
-        <item itemvalue="Kotlin.KtOperatorKt" />
-        <item itemvalue="Kotlin.KtComponentKt" />
-        <item itemvalue="Kotlin.KtDataBeanKt" />
-        <item itemvalue="Kotlin.KtObjectExpressKt" />
+        <item itemvalue="Kotlin.KtTypeKt" />
+        <item itemvalue="Kotlin.KtAbstractKt" />
+        <item itemvalue="Kotlin.KtInterfaceDefaultKt" />
+        <item itemvalue="Kotlin.KtInterfaceKt" />
+        <item itemvalue="Kotlin.KtSealedKt" />
       </list>
     </recent_temporary>
   </component>
@@ -172,10 +177,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="85" y="224" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1682474034915" />
-    <state x="116" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1682604260581">
+    <state x="116" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1682946380283">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="116" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1682604260581" />
+    <state x="116" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1682946380283" />
     <state x="116" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1682391792881" />
     <state x="270" y="320" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1682139038262">
       <screen x="0" y="0" width="1536" height="824" />
@@ -197,25 +202,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="172" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1682426002338" />
-    <state width="723" height="200" key="GridCell.Tab.0.bottom" timestamp="1682784196614">
+    <state width="623" height="200" key="GridCell.Tab.0.bottom" timestamp="1682948866828">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="723" height="200" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1682784196614" />
+    <state width="623" height="200" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1682948866828" />
     <state width="723" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1682521162643" />
-    <state width="723" height="200" key="GridCell.Tab.0.center" timestamp="1682784196614">
+    <state width="623" height="200" key="GridCell.Tab.0.center" timestamp="1682948866828">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="723" height="200" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1682784196614" />
+    <state width="623" height="200" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1682948866828" />
     <state width="723" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1682521162643" />
-    <state width="723" height="200" key="GridCell.Tab.0.left" timestamp="1682784196614">
+    <state width="623" height="200" key="GridCell.Tab.0.left" timestamp="1682948866828">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="723" height="200" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1682784196614" />
+    <state width="623" height="200" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1682948866828" />
     <state width="723" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1682521162643" />
-    <state width="723" height="200" key="GridCell.Tab.0.right" timestamp="1682784196614">
+    <state width="623" height="200" key="GridCell.Tab.0.right" timestamp="1682948866828">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="723" height="200" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1682784196614" />
+    <state width="623" height="200" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1682948866828" />
     <state width="723" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1682521162643" />
     <state width="724" height="258" key="GridCell.Tab.1.bottom" timestamp="1682389758397">
       <screen x="0" y="0" width="1536" height="824" />
@@ -237,10 +242,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="61" width="914" height="708" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1682505362028" />
-    <state x="77" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1682777138379">
+    <state x="77" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1682822865653">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="77" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1682777138379" />
+    <state x="77" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1682822865653" />
     <state x="77" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1682505364382" />
     <state x="403" y="338" width="678" height="571" key="dock-window-1" timestamp="1682216488807">
       <screen x="0" y="0" width="1536" height="824" />
@@ -254,10 +259,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="12" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1682215595105" />
-    <state x="430" y="144" width="672" height="672" key="search.everywhere.popup" timestamp="1682779298795">
+    <state x="430" y="144" width="672" height="672" key="search.everywhere.popup" timestamp="1682942864204">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="430" y="144" width="672" height="672" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1682779298795" />
+    <state x="430" y="144" width="672" height="672" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1682942864204" />
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1682472973300" />
   </component>
 </project>

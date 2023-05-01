@@ -1,4 +1,4 @@
-package com.fytuu.oop.clz
+package com.fytuu.oop.enum
 
 /**
  * 枚举类

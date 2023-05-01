@@ -1,12 +1,22 @@
 package com.fytuu.oop.clz
 
+/*
+note：
+1. 数据类型至少必须含有一个参数的主构造函数
+2. 数据类型的主构造函数必须主动接受参数，val var修饰接收参数
+3. 数据类型不能使用 abstract/open/sealed/inner等修饰，数据类型只负责数据载入
+        可以理解为面向主构造函数参数的普通JavaBean，没有其他额外的功能
+4.  仅需要普通的 copy/toString/解构/compare比较 等功能时，可以使用数据类型
+ */
+
+
 //普通类
 //setter getter
 class KtNormalBean(var msg: String, var code: Int, var data: String)
 
 //数据类 - JavaBean形式
 //额外多了 component、toString、hashcode、equals、copy
-//      这些多出来的函数，只是用主构造函数声明的变量
+//      这些多出来的函数，只是用主构造函数声明的变量，而且必须主动接收！！！
 //      其中，对象类型的数据的copy为引用拷贝
 data class KtDataBean(var msg: String, var code: Int, var data: String)
 
