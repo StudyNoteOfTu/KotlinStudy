@@ -28,6 +28,7 @@ fun main() {
     val objPrinted2 = ObjPrinted2("default info 2 ")
 
     //自动泛型判断
+    println("测试KtType，自动泛型判断")
     KtType(objPrinted).show()
     KtType(objPrinted2).show()
 
@@ -36,11 +37,30 @@ fun main() {
 
 
     //返回值使用了泛型
+    println("测试KtType2，返回值使用泛型")
     println(KtType2(true, "str obj").getObj())//str obj
     println(KtType2(false, "str obj").getObj())//null
 
     show(objPrinted)
-    show(null)//Exception in thread "main" kotlin.KotlinNullPointerException
+//    show(null)//Exception in thread "main" kotlin.KotlinNullPointerException
+
+    //调用模拟RxJava中的map函数
+    //如果isMap= false，则返回null，如果isMap = true，则返回map函数中apply函数的结果
+    println("测试KtRxMap")
+    val r = KtRxMap(true,"inputStringType").map {
+        println("get input: $it")
+        1//返回Int类型的1
+//        "hello"//返回string类型的"hello"
+    }?:"map result is null"
+    println(r)
+
+
+    println("测试map函数")
+    val r2 = 1.map {
+        println("接收到 $it, 返回字符串ok")
+        "ok"
+    }
+    println(r2)
 }
 
 fun <R> show(item:R){
@@ -58,6 +78,20 @@ fun <R> show(item:R){
 
 //匿名函数搞一个常见的映射函数
 //block为一个函数参数声明
-fun <T,R> T.apply(block:(T)->R):R{
+fun <T,R> T.map(block:(T)->R):R{
     return block(this)
+}
+//等同于下面这种写法写法
+//上面的this其实就是apply()中的第一个传入参数： map(this:T,block:(T)->R)
+//inline fun <I,O> map(caller:I,block:(I)->O) = block(caller)
+
+//模拟RxJava的map操作符
+class KtRxMap<T>(val isMap:Boolean = true, val input:T){
+    //定义变换后的类型，用了lambda，可以用inline，避免增加额外的匿名类
+    inline fun <R> map(apply:(T)->R):R?{
+        return apply(input).takeIf { isMap }
+    }
+
+    //另一种写法 - 直接return结果，返回值自动判定
+    inline fun <R> map2(apply:(T)->R) = apply(input).takeIf { isMap }
 }
