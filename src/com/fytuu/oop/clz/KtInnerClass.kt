@@ -1,4 +1,4 @@
-package com.fytuu.oop.plus
+package com.fytuu.oop.clz
 
 /**
  * 内部类
